@@ -1,0 +1,155 @@
+{
+  "goal": "정육면체를 굴려 바닥의 글자가 윗면으로 오게 하고 모든 불빛을 켠다.",
+  "basicActions": [
+    "한 칸 굴리기",
+    "한 수 전 또는 다시 시작"
+  ],
+  "candidates": [
+    {
+      "gameName": "Bloxorz",
+      "sourceUrl": "https://www.coolmathgames.com/0-bloxorz/body",
+      "coreMechanic": "방향키로 블록을 굴려 목표 구멍에 도달",
+      "mathematicalAdaptation": "정육면체의 면 방향을 추론해 지정 면을 위로 만들기",
+      "selected": true,
+      "reason": "굴리기 한 동작으로 전개도·마주 보는 면을 탐구하고 경로 선택을 깊게 할 수 있음"
+    },
+    {
+      "gameName": "Rush Hour",
+      "sourceUrl": "https://www.ravensburger.co.uk/en-GB/products/games/brand-rush-hour",
+      "coreMechanic": "차를 가로·세로로 밀어 출구 확보",
+      "mathematicalAdaptation": "다면체 블록 배치로 통로 확보",
+      "selected": false,
+      "reason": "이동 퍼즐 자체가 면 관계 판단을 요구하지 않아 제외"
+    },
+    {
+      "gameName": "Cube Puzzler PRO",
+      "sourceUrl": "https://www.smartgames.eu/uk/one-player-games/cube-puzzler-pro",
+      "coreMechanic": "6조각을 배치하여 색 조건에 맞는 정육면체 구성",
+      "mathematicalAdaptation": "전개도-입체 대응 퍼즐",
+      "selected": false,
+      "reason": "모바일에서 3D 회전·끼우기 조작 부담이 커 제외"
+    }
+  ],
+  "researchDate": "2026-11-03",
+  "playLoop": "관찰→경로 예상→굴리기→불빛 켜기→별 수집. 막히면 빛을 소비하여 되돌리거나 무료 재시작.",
+  "resources": "이동·되돌리기 각각 빛1. 생각하는 실시간은 소비하지 않음. 한 수 전은 이전 면·위치·불빛을 복원하나 소비한 빛을 돌려주지 않음.",
+  "progression": [
+    {
+      "round": 1,
+      "title": "첫 번째 빛",
+      "judgment": "같은 방향으로 두 번 굴리면 어떤 면이 위로 올까요?",
+      "optimal": 2,
+      "budget": 7,
+      "nearestFirstExtraMoves": null,
+      "phase": "면 변화와 반대 면"
+    },
+    {
+      "round": 2,
+      "title": "돌아오는 면",
+      "judgment": "마주 보는 두 면은 동시에 위로 오지 않아요.",
+      "optimal": 4,
+      "budget": 9,
+      "nearestFirstExtraMoves": null,
+      "phase": "면 변화와 반대 면"
+    },
+    {
+      "round": 3,
+      "title": "모서리를 돌아서",
+      "judgment": "길을 꺾으면 면의 방향도 달라져요.",
+      "optimal": 3,
+      "budget": 8,
+      "nearestFirstExtraMoves": null,
+      "phase": "면 변화와 반대 면"
+    },
+    {
+      "round": 4,
+      "title": "가까워도 다른 면",
+      "judgment": "가장 짧은 길이 항상 맞는 길은 아니에요.",
+      "optimal": 7,
+      "budget": 11,
+      "nearestFirstExtraMoves": null,
+      "phase": "직선 최단거리와 방향 우회"
+    },
+    {
+      "round": 5,
+      "title": "네모 한 바퀴",
+      "judgment": "같은 칸으로 돌아와도 윗면이 달라질 수 있어요.",
+      "optimal": 7,
+      "budget": 11,
+      "nearestFirstExtraMoves": null,
+      "phase": "직선 최단거리와 방향 우회"
+    },
+    {
+      "round": 6,
+      "title": "긴 길의 비밀",
+      "judgment": "막힌 곳을 돌아올 때 어느 면이 위로 올까요?",
+      "optimal": 6,
+      "budget": 10,
+      "nearestFirstExtraMoves": null,
+      "phase": "직선 최단거리와 방향 우회"
+    },
+    {
+      "round": 7,
+      "title": "두 불빛 사이",
+      "judgment": "어느 불빛부터 켜면 이동을 아낄까요?",
+      "optimal": 9,
+      "budget": 13,
+      "nearestFirstExtraMoves": 0,
+      "phase": "두 목표 순서"
+    },
+    {
+      "round": 8,
+      "title": "먼 곳부터 갈까",
+      "judgment": "가까운 불빛부터 가는 것이 유리할까요?",
+      "optimal": 11,
+      "budget": 13,
+      "nearestFirstExtraMoves": 4,
+      "phase": "두 목표 순서"
+    },
+    {
+      "round": 9,
+      "title": "같은 칸, 다른 모습",
+      "judgment": "위치와 면의 방향을 함께 생각해요.",
+      "optimal": 9,
+      "budget": 11,
+      "nearestFirstExtraMoves": 2,
+      "phase": "두 목표 순서"
+    },
+    {
+      "round": 10,
+      "title": "세 별의 순서",
+      "judgment": "세 불빛을 켤 순서를 정해 보세요.",
+      "optimal": 17,
+      "budget": 19,
+      "nearestFirstExtraMoves": 6,
+      "phase": "세 목표와 남은 이동 결합"
+    },
+    {
+      "round": 11,
+      "title": "남겨 둔 한 걸음",
+      "judgment": "남은 이동으로 다음 불빛까지 갈 수 있을까요?",
+      "optimal": 13,
+      "budget": 15,
+      "nearestFirstExtraMoves": 8,
+      "phase": "세 목표와 남은 이동 결합"
+    },
+    {
+      "round": 12,
+      "title": "별이 깨어나는 밤",
+      "judgment": "전개도, 우회 경로, 방문 순서를 함께 써 보세요.",
+      "optimal": 18,
+      "budget": 20,
+      "nearestFirstExtraMoves": 3,
+      "phase": "세 목표와 남은 이동 결합"
+    }
+  ],
+  "counterexamples": {
+    "shortestSpatialPath": "4-6라운드는 목표까지의 맨해튼 거리보다 최소 2회 이상 필요. 거리만 맞춰 도착하면 면이 다름.",
+    "nearestFirst": "8-12라운드는 가까운 목표부터 켜는 순서가 최적보다 2회 이상 더 필요.",
+    "resource": "되돌리기도 1회를 사용하므로 반복 왕복·되돌리기로 예산을 소진하면 실패. 재시작으로 복구."
+  },
+  "generationReview": "단순 폐회로 일부는 한 바퀴 돌아도 면 방향이 보존되어 후보 생성 3회 실패. 해당 지도 유형 폐기 후 방향 변환 가능한 2x2 회전 공간 포함 지도 사용.",
+  "assessmentScope": "9수03-07 중 정육면체의 전개도·면 관계·회전 관찰과 삼각기둥 구조 비교만 확인. 다른 다면체, 회전체와 단면, 정다면체 전체의 분류는 미확인. 게임 승리는 공식 이수 판정이 아님.",
+  "funHypothesis": "목적지에 도착했는데 다른 면이 위를 보는 발견과 우회 후 성공, 방문 순서 개선이 재도전을 유도할 것으로 예상. 학생 대상 재미·학습 효과 미검증.",
+  "copyright": "참고 게임의 레벨·캐릭터·이미지·소스 코드는 복사하지 않음."
+}

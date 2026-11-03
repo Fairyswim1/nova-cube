@@ -1,0 +1,43 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "title": "미래엔 중학교 수학1 7-1 다면체",
+      "sha256": "d8b9575a47ca2557f7519c38f99438f22bbcbc6e8f0ee0b7f2f514368546f615",
+      "pdfPages": [
+        4,
+        6,
+        7,
+        9
+      ],
+      "printedPages": [
+        212,
+        214,
+        215,
+        217
+      ],
+      "visualPages": [
+        7
+      ],
+      "internalImages": [
+        "curriculum/nova-source-7.png"
+      ],
+      "concepts": [
+        "다면체의 면·모서리·꼭짓점",
+        "정육면체의 합동인 정사각형 면",
+        "한 꼭짓점에 모인 세 면",
+        "전개도와 3D 관찰"
+      ],
+      "prerequisites": [
+        "정사각형",
+        "직육면체 전개도"
+      ],
+      "misconceptions": [
+        "전개도에서 떨어진 면은 접어도 만나지 않는다는 생각",
+        "회전하면 마주 보는 면이 달라진다는 생각",
+        "보이는 면·모서리만 세기"
+      ]
+    }
+  ],
+  "scope": "정육면체 탐구는 전체 성취기준의 일부. 원문 PDF/추출문은 배포하지 않음."
+}

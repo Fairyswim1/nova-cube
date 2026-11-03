@@ -1,0 +1,55 @@
+{
+  "game": "nova-cube",
+  "version": "2026.11.03.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": [
+      53,
+      54,
+      55
+    ]
+  },
+  "standards": [
+    {
+      "code": "9수03-07",
+      "text": "구체적인 모형이나 공학 도구를 이용하여 다면체와 회전체의 성질을 탐구하고, 이를 설명할 수 있다.",
+      "page": 44,
+      "printedPage": 38,
+      "skills": {
+        "opposite": "전개도를 접었을 때 마주 보는 면 찾기",
+        "adjacent": "모서리를 공유하는 이웃 면 구별",
+        "structure": "정육면체·삼각기둥의 면·모서리·꼭짓점과 한 꼭짓점에 모인 면 관찰",
+        "rotation": "회전 뒤의 면과 변하지 않는 마주 보는 관계 설명"
+      },
+      "rubric": "전개도와 모형을 대응 / 가려진 면과 모서리까지 세기 / 마주 보는 관계는 회전해도 보존됨을 설명 / 학생의 근거를 함께 검토",
+      "limit": "9수03-07 중 정육면체의 전개도·면 관계·회전 관찰과 삼각기둥 구조 비교만 확인. 다른 다면체, 회전체와 단면, 정다면체 전체의 분류는 미확인. 게임 승리는 공식 이수 판정이 아님."
+    }
+  ],
+  "interpretation": {
+    "pages": [
+      45,
+      46
+    ],
+    "printedPages": [
+      39,
+      40
+    ],
+    "review": "9수03-07 해설의 전개도·컴퓨터 프로그램을 통한 관찰·탐구와 적용 시 고려 사항의 평면-입체 관계 직관적 이해, 볼록 다면체, 설명 근거를 대조함."
+  },
+  "independence": {
+    "requiredDistinctFirstNoHelp": 2,
+    "retriesIndependent": false,
+    "gameWinEvidence": false
+  },
+  "records": {
+    "firstResponse": true,
+    "incorrect": true,
+    "retry": true,
+    "help": true,
+    "explanation": true,
+    "review": true,
+    "export": "Readable HTML and print; no raw JSON",
+    "anonymousProfiles": true
+  }
+}

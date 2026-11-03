@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen built-in",
+  "generatedAt": "2026-11-03T02:14:08.094Z",
+  "assets": [
+    {
+      "file": "background.png",
+      "prompt": "Use case: stylized-concept. Asset: background for Nova Cube, a Korean middle-school spatial puzzle. Wide landscape painterly fantasy observatory garden floating among midnight indigo clouds, pale turquoise crystal towers and warm gold tiny lamps at far edges, one friendly feeling, beautiful refined illustrated board game aesthetic. Large quiet dark navy center for code-rendered game board, no grid, no UI, no letters, no numbers. Subtle polished stone architecture, soft luminous stars, atmospheric depth. No text or watermark.",
+      "transparent": false
+    },
+    {
+      "file": "button.png",
+      "prompt": "Use case: stylized-concept. Single empty horizontal fantasy game button, ratio about 4 to 1 within transparent canvas. Elegant midnight blue enamel and brushed pale gold frame, turquoise corners, generous flat ivory center 75% safe text area. Front view, symmetrical, soft depth, delicate star motif only at ends. No text, no numbers, no backdrop. Cohesive refined painterly celestial observatory game UI.",
+      "transparent": true
+    },
+    {
+      "file": "tile.png",
+      "prompt": "Use case: stylized-concept. One square game board floor tile viewed perfectly from above, square silhouette with lightly rounded corners, blue slate stone inset, slim gold edge, small cyan crystal details at corners. Center quiet flat navy, generous unadorned center for code-rendered cube or letter. High-quality hand-painted fantasy observatory boardgame asset. Isolated true transparent background, no letters, no text, no perspective, no symbols.",
+      "transparent": true
+    },
+    {
+      "file": "badge.png",
+      "prompt": "Use case: stylized-concept. One empty circular celestial medallion game round-selector asset. Polished warm gold rim with tiny turquoise crystal notches, matte deep blue round center kept entirely blank for a code number. Front-on view, complete object with padding, no shadow backdrop, true transparent background. Refined painterly fantasy game UI, no letters or numbers.",
+      "transparent": true
+    },
+    {
+      "file": "guide.png",
+      "prompt": "Use case: stylized-concept. Friendly small star fox astronomer character, cream fur and midnight blue cape with a tiny gold star clasp, holding a cyan crystal lantern. Full body three-quarter view, appealing elegant storybook game art for middle school, not babyish. Isolated true transparent background, no text, no numbers, full silhouette with padding.",
+      "transparent": true
+    },
+    {
+      "file": "reward.png",
+      "prompt": "Use case: stylized-concept. One magical collectible miniature observatory, polished pale gold armillary rings around a radiant turquoise star crystal, on small midnight blue pedestal. Fantasy boardgame reward trophy, attractive luminous hand-painted style, full silhouette with padding, true transparent background. No text or letters. Not a geometrically exact mathematical diagram.",
+      "transparent": true
+    }
+  ]
+}

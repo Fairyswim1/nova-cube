@@ -1,0 +1,48 @@
+{
+  "id": "nova-cube",
+  "title": "노바 큐브",
+  "subtitle": "여섯 면의 별빛",
+  "grade": 1,
+  "unit": "7-1 다면체 · 정육면체의 구조와 전개도",
+  "category": "입체도형",
+  "version": "1.0.0",
+  "description": "정육면체를 굴려 바닥 글자와 윗면을 맞추세요. 전개도를 살펴 면의 방향과 방문 순서를 생각하며 열두 불빛 여행을 완주하는 공간 퍼즐입니다.",
+  "tags": [
+    "정육면체",
+    "전개도",
+    "공간 추론"
+  ],
+  "duration": "20–35분",
+  "assets": [
+    "assets/background.png",
+    "assets/button.png",
+    "assets/tile.png",
+    "assets/badge.png",
+    "assets/guide.png",
+    "assets/reward.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "controls": "assets/button.png",
+    "interactiveProp": "assets/tile.png",
+    "roundNavigation": "assets/badge.png",
+    "character": "assets/guide.png",
+    "reward": "assets/reward.png"
+  },
+  "obstacles": "길이 없는 칸과 제한된 이동. 수학 정육면체는 SVG 코드로 정확히 그림.",
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "spotlight": true,
+    "actualSuccess": true,
+    "skippable": true,
+    "replay": true,
+    "isolated": true
+  },
+  "repository": "https://github.com/Fairyswim1/nova-cube",
+  "repositoryStatus": "created"
+}

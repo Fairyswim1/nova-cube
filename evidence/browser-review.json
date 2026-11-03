@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-03T02:35:58.581Z",
+  "sourceHash": "5ba7a0ebff8a712d82107b39d5b055f7ea22cd4148e89676c71ce9dd222a42c3",
+  "browser": "Chrome and ChatGPT in-app browser via CUA; localhost:51245",
+  "screenshots": [
+    "evidence/desktop.png",
+    "evidence/mobile.png",
+    "evidence/tutorial.png",
+    "evidence/notes-mobile.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "allWon": true,
+    "method": "Actual direction-button and keyboard interactions. Desktop rounds 1–9 and mobile rounds 10–12; final visible collection 12/12. Large batches timed out but subsequent visible states confirmed completed stages; no browser state injection.",
+    "ending": true,
+    "persistence": true,
+    "undo": true,
+    "failure": "Round 4 eleven alternating right/left moves exhaust energy; reset, right, undo leaves 9 energy and initial pose.",
+    "swipe": "Mobile pointer drag right moves first cube to E on top; 6 energy remains.",
+    "resourceTradeoff": "Automated independent 3D orientation oracle and shortest-path search. Nearest-target-first requires extra moves in rounds 8–12; not claimed to lose every round."
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "keyboard": true,
+    "actualPracticeWin": true,
+    "replay": true,
+    "skip": true,
+    "isolated": true,
+    "evidence": "One-right-move practice wins. Replay completion restores previous E-up main state and all 12 collected stars. Practice does not write campaign/assessment storage."
+  },
+  "assessment": {
+    "codes": [
+      "9수03-07"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "profiles": true,
+    "feedback": true,
+    "jsonUiRemoved": true,
+    "details": "All 8 tasks submitted through real UI. o1 wrong then hint/retry correct remains excluded; report 1/2,2/2,2/2,2/2. Seven fresh tasks correct. Explanations and feedback saved/reloaded. New note 2 starts with zeros; switching back restores note 1.",
+    "exportEvidence": "Actual UI download copied to evidence/export-sample.html. HTML includes readable process, responses, hints, retries, explanations and feedback.",
+    "mobileEvidence": {
+      "cssWidth": 390,
+      "clientWidth": 376,
+      "scrollWidth": 376,
+      "imagesLoaded": true
+    }
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ],
+    "notes": "Screenshots visually reviewed. Task 4 title shortened to fit generated button. Hidden next-button mobile regression fixed and rechecked. Game title larger than atelier brand."
+  },
+  "audio": {
+    "signal": "verified in Chrome by actual sound-test button",
+    "inAppBrowserSignal": "unverified; fallback message shown",
+    "speakerAudition": false
+  },
+  "console": {
+    "gameErrors": [],
+    "assessmentErrors": []
+  },
+  "limits": [
+    "No student playtest; enjoyment or learning gains not established.",
+    "Only a subset of 9수03-07 is covered; revolving solids and other polyhedra remain outside this game.",
+    "Local browser progress only; no cross-device login."
+  ]
+}
