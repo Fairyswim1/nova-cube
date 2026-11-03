@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-03T02:35:58.581Z",
-  "sourceHash": "5ba7a0ebff8a712d82107b39d5b055f7ea22cd4148e89676c71ce9dd222a42c3",
+  "sourceHash": "4ab9aad3ddf1c08f617bcc74f3207795897281a3e3dd52a8dd38550aa4e6f2ac",
   "browser": "Chrome and ChatGPT in-app browser via CUA; localhost:51245",
   "screenshots": [
     "evidence/desktop.png",
@@ -75,5 +75,6 @@
     "No student playtest; enjoyment or learning gains not established.",
     "Only a subset of 9수03-07 is covered; revolving solids and other polyhedra remain outside this game.",
     "Local browser progress only; no cross-device login."
-  ]
+  ],
+  "metadataReview": "Catalog category aligned with existing 도형과 측정 filter; runtime source unchanged."
 }
