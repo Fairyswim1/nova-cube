@@ -2,164 +2,224 @@ TAP version 13
 # Subtest: o1 correct first response and blank rejection
 ok 1 - o1 correct first response and blank rejection
   ---
-  duration_ms: 4.1904
+  duration_ms: 5.1232
   ...
 # Subtest: o2 correct first response and blank rejection
 ok 2 - o2 correct first response and blank rejection
   ---
-  duration_ms: 0.4778
+  duration_ms: 0.3196
   ...
 # Subtest: a1 correct first response and blank rejection
 ok 3 - a1 correct first response and blank rejection
   ---
-  duration_ms: 0.2537
+  duration_ms: 0.1925
   ...
 # Subtest: a2 correct first response and blank rejection
 ok 4 - a2 correct first response and blank rejection
   ---
-  duration_ms: 0.1342
+  duration_ms: 0.1267
   ...
 # Subtest: s1 correct first response and blank rejection
 ok 5 - s1 correct first response and blank rejection
   ---
-  duration_ms: 0.2217
+  duration_ms: 0.2066
   ...
 # Subtest: s2 correct first response and blank rejection
 ok 6 - s2 correct first response and blank rejection
   ---
-  duration_ms: 0.1409
+  duration_ms: 0.122
   ...
 # Subtest: r1 correct first response and blank rejection
 ok 7 - r1 correct first response and blank rejection
   ---
-  duration_ms: 0.2046
+  duration_ms: 0.3456
   ...
 # Subtest: r2 correct first response and blank rejection
 ok 8 - r2 correct first response and blank rejection
   ---
-  duration_ms: 0.1015
+  duration_ms: 0.2075
   ...
 # Subtest: Help/retries/duplicates are not independent
 ok 9 - Help/retries/duplicates are not independent
   ---
-  duration_ms: 0.554
+  duration_ms: 0.8596
   ...
 # Subtest: Adjacent answers accept order but reject repeats and extras
 ok 10 - Adjacent answers accept order but reject repeats and extras
   ---
-  duration_ms: 0.4871
+  duration_ms: 0.7114
   ...
 # Subtest: New net answer oracle from independent fold vectors
 ok 11 - New net answer oracle from independent fold vectors
   ---
-  duration_ms: 3.1224
+  duration_ms: 2.7129
   ...
 # Subtest: 24 physical cube orientations and independent vector rotation
 ok 12 - 24 physical cube orientations and independent vector rotation
   ---
-  duration_ms: 4.756
+  duration_ms: 4.6842
   ...
 # Subtest: Round 1 independent physical replay to victory
 ok 13 - Round 1 independent physical replay to victory
   ---
-  duration_ms: 1.0883
+  duration_ms: 0.9217
   ...
 # Subtest: Round 2 independent physical replay to victory
 ok 14 - Round 2 independent physical replay to victory
   ---
-  duration_ms: 0.3281
+  duration_ms: 0.3169
   ...
 # Subtest: Round 3 independent physical replay to victory
 ok 15 - Round 3 independent physical replay to victory
   ---
-  duration_ms: 0.2026
+  duration_ms: 0.1973
   ...
 # Subtest: Round 4 independent physical replay to victory
 ok 16 - Round 4 independent physical replay to victory
   ---
-  duration_ms: 1.351
+  duration_ms: 1.0194
   ...
 # Subtest: Round 5 independent physical replay to victory
 ok 17 - Round 5 independent physical replay to victory
   ---
-  duration_ms: 0.3603
+  duration_ms: 0.3217
   ...
 # Subtest: Round 6 independent physical replay to victory
 ok 18 - Round 6 independent physical replay to victory
   ---
-  duration_ms: 0.4481
+  duration_ms: 0.4126
   ...
 # Subtest: Round 7 independent physical replay to victory
 ok 19 - Round 7 independent physical replay to victory
   ---
-  duration_ms: 1.8057
+  duration_ms: 1.6189
   ...
 # Subtest: Round 8 independent physical replay to victory
 ok 20 - Round 8 independent physical replay to victory
   ---
-  duration_ms: 3.1386
+  duration_ms: 1.7986
   ...
 # Subtest: Round 9 independent physical replay to victory
 ok 21 - Round 9 independent physical replay to victory
   ---
-  duration_ms: 2.6158
+  duration_ms: 2.1569
   ...
 # Subtest: Round 10 independent physical replay to victory
 ok 22 - Round 10 independent physical replay to victory
   ---
-  duration_ms: 6.912
+  duration_ms: 6.6964
   ...
 # Subtest: Round 11 independent physical replay to victory
 ok 23 - Round 11 independent physical replay to victory
   ---
-  duration_ms: 2.6531
+  duration_ms: 3.5158
   ...
 # Subtest: Round 12 independent physical replay to victory
 ok 24 - Round 12 independent physical replay to victory
   ---
-  duration_ms: 6.0648
+  duration_ms: 7.1238
   ...
 # Subtest: Late stages defeat nearest target first
 ok 25 - Late stages defeat nearest target first
   ---
-  duration_ms: 14.9001
+  duration_ms: 14.2162
   ...
 # Subtest: Rounds4-6 need orientation detours
 ok 26 - Rounds4-6 need orientation detours
   ---
-  duration_ms: 0.1872
+  duration_ms: 0.2946
   ...
 # Subtest: Boundary, undo energy, failure and restart
 ok 27 - Boundary, undo energy, failure and restart
   ---
-  duration_ms: 0.2421
+  duration_ms: 0.2348
   ...
 # Subtest: Position alone does not win
 ok 28 - Position alone does not win
   ---
-  duration_ms: 0.1587
+  duration_ms: 0.1577
   ...
 # Subtest: Practice first action wins
 ok 29 - Practice first action wins
   ---
-  duration_ms: 0.0921
+  duration_ms: 0.0892
   ...
 # Subtest: Tutorial isolation and skipping preserve both records
 ok 30 - Tutorial isolation and skipping preserve both records
   ---
-  duration_ms: 2.677
+  duration_ms: 2.7345
   ...
 # Subtest: Safe progress restore retains replayable actions
 ok 31 - Safe progress restore retains replayable actions
   ---
-  duration_ms: 1.2481
+  duration_ms: 0.4479
   ...
-1..31
-# tests 31
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 32 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.51
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 33 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 1.8282
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 34 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.2685
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 35 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.2348
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 36 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.267
+  ...
+# Subtest: pause cancels a pending play state update
+ok 37 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2246
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 38 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2475
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 39 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.6213
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 40 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 89.265
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 41 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.5368
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 42 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.3051
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 43 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.4393
+  ...
+1..43
+# tests 43
 # suites 0
-# pass 31
+# pass 43
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 195.4699
+# duration_ms 237.6771

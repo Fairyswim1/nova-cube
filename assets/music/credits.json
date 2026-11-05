@@ -1,0 +1,42 @@
+{
+  "title": "작은 별의 궤도",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "작은 별의 궤도",
+    "root": 59,
+    "bpm": 70,
+    "color": "celesta",
+    "minor": true,
+    "motif": [
+      0,
+      7,
+      10,
+      14,
+      12,
+      7,
+      5,
+      3
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 70,
+      "seconds": 54.857142857142854,
+      "peak": 0.2569458201461465,
+      "rms": 0.06000974340106872,
+      "seamDelta": 0.007514257364486195,
+      "sha256": "95b2d66bb9ca50869466f7c30654bdff939880ca33c201a67a75ea252e71b262"
+    },
+    {
+      "mode": "energy",
+      "bpm": 94,
+      "seconds": 40.85106575963719,
+      "peak": 0.37581777304543823,
+      "rms": 0.0725270752400079,
+      "seamDelta": 0.0022892656104831106,
+      "sha256": "126b8b009b0bd8d077d5f9b36fe4d60bf6dd0793fcf777ab33dc337dffbbadb6"
+    }
+  ]
+}
