@@ -338,6 +338,6 @@ const all=[
     "orderGap": 3
   }
 ];
-export const practice={id:0,title:"빛을 켜는 첫걸음",lesson:"오른쪽으로 한 번 굴려 E면을 위로 올려요.",map:[".."],start:[0,0],targets:[{x:1,y:0,face:"E"}],budget:5};
+export const practice={id:0,title:"빛을 켜는 첫걸음",lesson:"오른쪽으로 두 번 굴려 F칸에서 F면을 위로 올려요.",map:["..."],start:[0,0],targets:[{x:2,y:0,face:"F"}],budget:5};
 
 all[0]={id:1,title:"첫 번째 빛",lesson:"같은 방향으로 두 번 굴리면 어떤 면이 위로 올까요?",map:["...","..."],start:[0,0],targets:[{x:2,y:0,face:"F"}],budget:7,optimal:2,orderGap:null};export const levels=all;

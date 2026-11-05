@@ -1,13 +1,14 @@
 {
   "status": "passed",
-  "checkedAt": "2026-11-03T02:35:58.581Z",
-  "sourceHash": "aaa565f9a971ece3683c3b687bed7dd5800674c03caa482e43d2e62abbd6e7f7",
+  "checkedAt": "2026-11-05T04:38:59.088Z",
+  "sourceHash": "4b81a1c5ba11612a7743c0f70fbdafab23c84df92db1aa14d30630e33780d44b",
   "browser": "Chrome and ChatGPT in-app browser via CUA; localhost:51245",
   "screenshots": [
     "evidence/desktop.png",
     "evidence/mobile.png",
     "evidence/tutorial.png",
-    "evidence/notes-mobile.png"
+    "evidence/notes-mobile.png",
+    "evidence/clarity-mobile.png"
   ],
   "campaign": {
     "rounds": 12,
@@ -27,7 +28,7 @@
     "replay": true,
     "skip": true,
     "isolated": true,
-    "evidence": "One-right-move practice wins. Replay completion restores previous E-up main state and all 12 collected stars. Practice does not write campaign/assessment storage."
+    "evidence": "Updated two-right-move practice: A -> E -> F; actual keyboard Enter on direction button, win and exit restore main-game collection 1/12. Replay and skip checked; practice stays isolated."
   },
   "assessment": {
     "codes": [
@@ -97,5 +98,24 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "clarityRevision": {
+    "checkedAt": "2026-11-05T04:38:59.088Z",
+    "scope": "Goal, move count, six-face 3D rolling animation, adjacent-cell input and two-move tutorial. Engine and 12 campaign puzzles unchanged; prior full campaign/assessment review retained.",
+    "desktop": {
+      "tutorial": true,
+      "round2Win": "down,right,right,down via adjacent-cell click, keyboard and arrow button"
+    },
+    "mobile": {
+      "cssWidth": 390,
+      "tutorialKeyboardWin": true,
+      "controlsBottom": 355.8,
+      "tutorialCardTop": 545.3,
+      "progressRestored": "1/12 after practice",
+      "replay": true,
+      "consoleErrors": []
+    },
+    "automatedTests": 47,
+    "studentPlaytest": false
   }
 }
