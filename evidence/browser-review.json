@@ -1,14 +1,15 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T04:38:59.088Z",
-  "sourceHash": "4b81a1c5ba11612a7743c0f70fbdafab23c84df92db1aa14d30630e33780d44b",
+  "sourceHash": "28509f9412c1bfaedf02ef8dbb514b1d05676e75c93b57511e66bb109b7cdaa8",
   "browser": "Chrome and ChatGPT in-app browser via CUA; localhost:51245",
   "screenshots": [
     "evidence/desktop.png",
     "evidence/mobile.png",
     "evidence/tutorial.png",
     "evidence/notes-mobile.png",
-    "evidence/clarity-mobile.png"
+    "evidence/clarity-mobile.png",
+    "evidence/first-visit-mobile.png"
   ],
   "campaign": {
     "rounds": 12,
@@ -117,5 +118,17 @@
     },
     "automatedTests": 47,
     "studentPlaytest": false
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:57.210Z",
+    "id": "nova-cube",
+    "firstVisitOff": true,
+    "startedStep": "목표는 F칸 + 윗면 F",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "4b81a1c5ba11612a7743c0f70fbdafab23c84df92db1aa14d30630e33780d44b",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }

@@ -1,0 +1,280 @@
+TAP version 13
+# Subtest: o1 correct first response and blank rejection
+ok 1 - o1 correct first response and blank rejection
+  ---
+  duration_ms: 4.4724
+  ...
+# Subtest: o2 correct first response and blank rejection
+ok 2 - o2 correct first response and blank rejection
+  ---
+  duration_ms: 0.447
+  ...
+# Subtest: a1 correct first response and blank rejection
+ok 3 - a1 correct first response and blank rejection
+  ---
+  duration_ms: 0.3122
+  ...
+# Subtest: a2 correct first response and blank rejection
+ok 4 - a2 correct first response and blank rejection
+  ---
+  duration_ms: 0.2082
+  ...
+# Subtest: s1 correct first response and blank rejection
+ok 5 - s1 correct first response and blank rejection
+  ---
+  duration_ms: 0.3373
+  ...
+# Subtest: s2 correct first response and blank rejection
+ok 6 - s2 correct first response and blank rejection
+  ---
+  duration_ms: 0.202
+  ...
+# Subtest: r1 correct first response and blank rejection
+ok 7 - r1 correct first response and blank rejection
+  ---
+  duration_ms: 0.3024
+  ...
+# Subtest: r2 correct first response and blank rejection
+ok 8 - r2 correct first response and blank rejection
+  ---
+  duration_ms: 0.1673
+  ...
+# Subtest: Help/retries/duplicates are not independent
+ok 9 - Help/retries/duplicates are not independent
+  ---
+  duration_ms: 0.8498
+  ...
+# Subtest: Adjacent answers accept order but reject repeats and extras
+ok 10 - Adjacent answers accept order but reject repeats and extras
+  ---
+  duration_ms: 0.6819
+  ...
+# Subtest: New net answer oracle from independent fold vectors
+ok 11 - New net answer oracle from independent fold vectors
+  ---
+  duration_ms: 2.443
+  ...
+# Subtest: 24 physical cube orientations and independent vector rotation
+ok 12 - 24 physical cube orientations and independent vector rotation
+  ---
+  duration_ms: 5.2692
+  ...
+# Subtest: Round 1 independent physical replay to victory
+ok 13 - Round 1 independent physical replay to victory
+  ---
+  duration_ms: 1.0243
+  ...
+# Subtest: Round 2 independent physical replay to victory
+ok 14 - Round 2 independent physical replay to victory
+  ---
+  duration_ms: 0.3227
+  ...
+# Subtest: Round 3 independent physical replay to victory
+ok 15 - Round 3 independent physical replay to victory
+  ---
+  duration_ms: 0.1959
+  ...
+# Subtest: Round 4 independent physical replay to victory
+ok 16 - Round 4 independent physical replay to victory
+  ---
+  duration_ms: 1.1669
+  ...
+# Subtest: Round 5 independent physical replay to victory
+ok 17 - Round 5 independent physical replay to victory
+  ---
+  duration_ms: 0.3928
+  ...
+# Subtest: Round 6 independent physical replay to victory
+ok 18 - Round 6 independent physical replay to victory
+  ---
+  duration_ms: 0.4041
+  ...
+# Subtest: Round 7 independent physical replay to victory
+ok 19 - Round 7 independent physical replay to victory
+  ---
+  duration_ms: 1.7371
+  ...
+# Subtest: Round 8 independent physical replay to victory
+ok 20 - Round 8 independent physical replay to victory
+  ---
+  duration_ms: 3.2688
+  ...
+# Subtest: Round 9 independent physical replay to victory
+ok 21 - Round 9 independent physical replay to victory
+  ---
+  duration_ms: 4.0477
+  ...
+# Subtest: Round 10 independent physical replay to victory
+ok 22 - Round 10 independent physical replay to victory
+  ---
+  duration_ms: 7.985
+  ...
+# Subtest: Round 11 independent physical replay to victory
+ok 23 - Round 11 independent physical replay to victory
+  ---
+  duration_ms: 4.3937
+  ...
+# Subtest: Round 12 independent physical replay to victory
+ok 24 - Round 12 independent physical replay to victory
+  ---
+  duration_ms: 7.9776
+  ...
+# Subtest: Late stages defeat nearest target first
+ok 25 - Late stages defeat nearest target first
+  ---
+  duration_ms: 15.0948
+  ...
+# Subtest: Rounds4-6 need orientation detours
+ok 26 - Rounds4-6 need orientation detours
+  ---
+  duration_ms: 0.1803
+  ...
+# Subtest: Boundary, undo energy, failure and restart
+ok 27 - Boundary, undo energy, failure and restart
+  ---
+  duration_ms: 0.2649
+  ...
+# Subtest: Position alone does not win
+ok 28 - Position alone does not win
+  ---
+  duration_ms: 0.1529
+  ...
+# Subtest: Practice teaches two physical rolls before the target lights
+ok 29 - Practice teaches two physical rolls before the target lights
+  ---
+  duration_ms: 0.1161
+  ...
+# Subtest: Tutorial isolation and skipping preserve both records
+ok 30 - Tutorial isolation and skipping preserve both records
+  ---
+  duration_ms: 2.7659
+  ...
+# Subtest: Safe progress restore retains replayable actions
+ok 31 - Safe progress restore retains replayable actions
+  ---
+  duration_ms: 0.2866
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 32 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 2.1554
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 33 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.8714
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 34 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.431
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 35 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.355
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 36 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.3939
+  ...
+# Subtest: pause cancels a pending play state update
+ok 37 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2594
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 38 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2512
+  ...
+# Subtest: CSS rotations put exactly the same physical faces on top as the game in all 24 orientations
+ok 39 - CSS rotations put exactly the same physical faces on top as the game in all 24 orientations
+  ---
+  duration_ms: 6.9516
+  ...
+# Subtest: Reaching a marked square with the wrong top explains what is missing
+ok 40 - Reaching a marked square with the wrong top explains what is missing
+  ---
+  duration_ms: 1.1832
+  ...
+# Subtest: Goal names remaining targets only and turns into success once all are lit
+ok 41 - Goal names remaining targets only and turns into success once all are lit
+  ---
+  duration_ms: 0.3259
+  ...
+# Subtest: The screenshot round has an understandable four-move solution
+ok 42 - The screenshot round has an understandable four-move solution
+  ---
+  duration_ms: 0.3058
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 43 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 3.121
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 44 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 87.3556
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 45 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.534
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 46 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.2963
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 47 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.4258
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 48 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 1.9058
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 49 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 1.0824
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 50 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 3.7928
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 51 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.5776
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 52 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.3266
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 53 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.3662
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 54 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.3836
+  ...
+1..54
+# tests 54
+# suites 0
+# pass 54
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 251.4623

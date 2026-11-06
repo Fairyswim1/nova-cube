@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-05T04:38:59.088Z",
+  "sourceHash": "4b81a1c5ba11612a7743c0f70fbdafab23c84df92db1aa14d30630e33780d44b",
+  "browser": "Chrome and ChatGPT in-app browser via CUA; localhost:51245",
+  "screenshots": [
+    "evidence/desktop.png",
+    "evidence/mobile.png",
+    "evidence/tutorial.png",
+    "evidence/notes-mobile.png",
+    "evidence/clarity-mobile.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "allWon": true,
+    "method": "Actual direction-button and keyboard interactions. Desktop rounds 1–9 and mobile rounds 10–12; final visible collection 12/12. Large batches timed out but subsequent visible states confirmed completed stages; no browser state injection.",
+    "ending": true,
+    "persistence": true,
+    "undo": true,
+    "failure": "Round 4 eleven alternating right/left moves exhaust energy; reset, right, undo leaves 9 energy and initial pose.",
+    "swipe": "Mobile pointer drag right moves first cube to E on top; 6 energy remains.",
+    "resourceTradeoff": "Automated independent 3D orientation oracle and shortest-path search. Nearest-target-first requires extra moves in rounds 8–12; not claimed to lose every round."
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "keyboard": true,
+    "actualPracticeWin": true,
+    "replay": true,
+    "skip": true,
+    "isolated": true,
+    "evidence": "Updated two-right-move practice: A -> E -> F; actual keyboard Enter on direction button, win and exit restore main-game collection 1/12. Replay and skip checked; practice stays isolated."
+  },
+  "assessment": {
+    "codes": [
+      "9수03-07"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "profiles": true,
+    "feedback": true,
+    "jsonUiRemoved": true,
+    "details": "All 8 tasks submitted through real UI. o1 wrong then hint/retry correct remains excluded; report 1/2,2/2,2/2,2/2. Seven fresh tasks correct. Explanations and feedback saved/reloaded. New note 2 starts with zeros; switching back restores note 1.",
+    "exportEvidence": "Actual UI download copied to evidence/export-sample.html. HTML includes readable process, responses, hints, retries, explanations and feedback.",
+    "mobileEvidence": {
+      "cssWidth": 390,
+      "clientWidth": 376,
+      "scrollWidth": 376,
+      "imagesLoaded": true
+    }
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ],
+    "notes": "Screenshots visually reviewed. Task 4 title shortened to fit generated button. Hidden next-button mobile regression fixed and rechecked. Game title larger than atelier brand."
+  },
+  "audio": {
+    "signal": "verified in Chrome by actual sound-test button",
+    "inAppBrowserSignal": "unverified; fallback message shown",
+    "speakerAudition": false
+  },
+  "console": {
+    "gameErrors": [],
+    "assessmentErrors": []
+  },
+  "limits": [
+    "No student playtest; enjoyment or learning gains not established.",
+    "Only a subset of 9수03-07 is covered; revolving solids and other polyhedra remain outside this game.",
+    "Local browser progress only; no cross-device login."
+  ],
+  "metadataReview": "Catalog category aligned with existing 도형과 측정 filter; runtime source unchanged.",
+  "audioRefresh": {
+    "id": "nova-cube",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "clarityRevision": {
+    "checkedAt": "2026-11-05T04:38:59.088Z",
+    "scope": "Goal, move count, six-face 3D rolling animation, adjacent-cell input and two-move tutorial. Engine and 12 campaign puzzles unchanged; prior full campaign/assessment review retained.",
+    "desktop": {
+      "tutorial": true,
+      "round2Win": "down,right,right,down via adjacent-cell click, keyboard and arrow button"
+    },
+    "mobile": {
+      "cssWidth": 390,
+      "tutorialKeyboardWin": true,
+      "controlsBottom": 355.8,
+      "tutorialCardTop": 545.3,
+      "progressRestored": "1/12 after practice",
+      "replay": true,
+      "consoleErrors": []
+    },
+    "automatedTests": 47,
+    "studentPlaytest": false
+  }
+}
